@@ -201,7 +201,6 @@ __interrupt void Timer_B0(void)
 }
 
 ### MSP430F5529
-FUCK THIS BOARD
 //---------------------------------------------------------------------------------------
 
 // Loads configurations for all MSP430 boards

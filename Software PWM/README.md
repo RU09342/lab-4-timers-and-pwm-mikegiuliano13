@@ -750,4 +750,3 @@ __interrupt void Timer_A0(void)
 	TA0CTL |= TACLR; // Clear Timer
 	
 }
-
