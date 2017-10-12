@@ -16,7 +16,7 @@ Within the timer interrupt, the duty cycle is increased and the green LED is tog
 proper debounce and at the end of the routine, interrupts are enabled again and the
 timer is reset in anticipation of another button press.
 
-All the while, the AI timer capture compare value is being compared to the current
+All the while, the A1 timer capture compare value is being compared to the current
 duty cycle. The red LED is toggled to produce an effective brightness that is
 proportional to the rate of toggling.
 
@@ -25,7 +25,7 @@ proportional to the rate of toggling.
 Generally, differences were in the pinouts for pull-up resistors and buttons.
 The MSP430FR2311 and MSP430FR5994 required the use of Timer B instead of Timer A.
 
-LOW POWER MODE MUST BE DISABLED;
+LOW POWER MODE MUST BE DISABLED.
 
 ### MSP430G2553
 //---------------------------------------------------------------------------------------
