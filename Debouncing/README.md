@@ -21,6 +21,7 @@ Generally, differences were in the pinouts for pull-up resistors and buttons.
 The MSP430FR2311 and MSP430FR5994 required the use of Timer B instead of Timer A.
 
 ### MSP430G2553
+```c
 //---------------------------------------------------------------------------------------
 
 // Loads configurations for all MSP430 boards
@@ -108,8 +109,10 @@ __interrupt void Timer_A0(void)
 	TA0CTL |= TACLR; // Clear Timer
 	
 }
+```
 
 ### MSP430FR2311
+```c
 //---------------------------------------------------------------------------------------
 
 // Loads configurations for all MSP430 boards
@@ -291,7 +294,7 @@ __interrupt void Timer_A0(void)
 	TA0CTL |= TACLR; // Clear Timer
 	
 }
-
+```
 ### MSP430FR5994
 //---------------------------------------------------------------------------------------
 
